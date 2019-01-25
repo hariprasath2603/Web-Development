@@ -1,0 +1,50 @@
+nav{
+    box-shadow: 2px 2px 30px  ;
+    padding: 3vmin ;
+    margin-top: 0;
+    margin-left: 0;
+    
+    background-color: white;
+    
+}
+#logo{
+    margin-left:auto;
+}
+
+body{
+    padding:0;
+    margin: 0;
+    background-color: #424242;
+}
+
+#app{
+    margin: 10vmin;
+    height: 60vmin;
+    padding: 3vmin;
+    background-color: white;
+    border-radius: 2vmin;
+    display: block;
+    box-shadow: 4px 4px 40px;
+}
+
+
+#input{
+
+    
+    
+      
+    
+}
+
+select{
+    padding: 1.5vmin;  
+    border-radius: 1vmin;
+    border-color: #1e88e5 ;
+    border-width: 2px;
+    margin-top:3vmin;
+    margin-left:4vmin;
+}
+
+select option{
+    padding : 8vmin;
+}

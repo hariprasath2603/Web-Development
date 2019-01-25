@@ -5,18 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ConVerter</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.com/libraries/bulma">
 </head>
 <body>
     <header>
-
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="https://bulma.io">
+                <img id="logo" src="https://bulma.io/images/bulma-logo.png" alt="Bulma: Free, open source, & modern CSS framework based on Flexbox" width="112" height="28">
+              </a>
+          
+              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>
+          </nav>
     </header>
-
-    <div>
+    <div id="app">
+        
         <div>
-            
+            <label for="#input">Value to be converted</label>
+            <input type="text" name="inpt" id="input">
+            <div id="conv">
+                        <select name="from" id="from">
+                            <option value="0">Decimal</option>
+                            <option value="1">Binary</option>
+                            <option value="2">Octal</option>
+                            <option value="3">Hexadecimal</option>
+                        </select>
+                        <select name="from" id="from">
+                                <option value="0">Decimal</option>
+                                <option value="1">Binary</option>
+                                <option value="2">Octal</option>
+                                <option value="3">Hexadecimal</option>
+                            </select>
+            </div>
         </div>
-    </div>
 
+    </div>
+    
     <footer>
 
     </footer>
